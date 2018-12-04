@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Index Page</title>
+    <style>
+        #all-topic {
+            background-color: crimson;
+            color: white;
+            margin-bottom: 15px;
+            padding: 10px;
+        }
+        #first-topic {
+            background-color: yellowgreen;
+            color: white;
+            margin-bottom: 15px;
+            padding: 10px;
+        }
+        #second-topic {
+            background-color: dodgerblue;
+            color: white;
+            margin-bottom: 15px;
+            padding: 10px;
+        }
+    </style>
+
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+</head>
+<body>
+    <div>
+        <div>
+            <input type="text" id="news-topic"/>
+        </div>
+        <div>
+            <input type="text" id="news-text"/>
+        </div>
+        <div>
+            <button onclick="addNews()">Add News</button>
+        </div>
+    </div>
+
+
+    <div id="all-topic">
+
+    </div>
+
+    <div id="second-topic">
+
+    </div>
+
+    <div id="first-topic">
+
+    </div>
+</body>
+    <script src="https://unpkg.com/subscriptions-transport-ws@0.9.15/browser/client.js"></script>
+    <script src="js/index.js"></script>
+</html>
